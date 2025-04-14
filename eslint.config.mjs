@@ -75,6 +75,7 @@ const config = [
 				{ args: 'after-used', argsIgnorePattern: '^_' },
 			],
 			'import/no-unresolved': 'error',
+			// '@typescript-eslint/no-explicit-any': 'off',  // <- Allow usage of any type
 		},
 	}),
 ];
